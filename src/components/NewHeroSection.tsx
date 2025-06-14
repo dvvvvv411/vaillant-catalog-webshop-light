@@ -1,4 +1,3 @@
-
 import React from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -62,9 +61,6 @@ const NewHeroSection = () => {
               <CardContent className="p-8 flex-1 flex flex-col justify-start pt-24">
                 <div className="space-y-4">
                   <h1 className="text-2xl text-gray-800 text-left">Exklusive B2B-Angebote mit Vaillant</h1>
-                  <p className="text-gray-700 mb-4 text-left">
-                    Ihr umfassender Überblick über professionelle Heiztechnik-Lösungen: Von energieeffizienten Wärmepumpen bis zu innovativen Warmwasser-Systemen – alle Produkte mit technischen Spezifikationen, Preisen und Verfügbarkeiten für Fachbetriebe.
-                  </p>
                   <ol className="space-y-4">
                     <li className="flex items-center gap-3">
                       <Check className="w-5 h-5 text-primary flex-shrink-0" />
@@ -100,7 +96,7 @@ const NewHeroSection = () => {
           }} />
         </div>
 
-        {/* Mobile Layout - with left-aligned text */}
+        {/* Mobile Layout - new */}
         <div className="block md:hidden space-y-4">
           {/* Background image container for mobile */}
           <div className="relative h-[300px] overflow-hidden rounded-lg" style={{
@@ -123,9 +119,6 @@ const NewHeroSection = () => {
             <CardContent className="p-6">
               <div className="space-y-4">
                 <h1 className="text-xl text-gray-800 text-center">Exklusive B2B-Angebote mit Vaillant</h1>
-                <p className="text-gray-700 mb-4 text-left">
-                  Ihr umfassender Überblick über professionelle Heiztechnik-Lösungen: Von energieeffizienten Wärmepumpen bis zu innovativen Warmwasser-Systemen – alle Produkte mit technischen Spezifikationen, Preisen und Verfügbarkeiten für Fachbetriebe.
-                </p>
                 <ol className="space-y-3">
                   <li className="flex items-center gap-3">
                     <Check className="w-5 h-5 text-primary flex-shrink-0" />

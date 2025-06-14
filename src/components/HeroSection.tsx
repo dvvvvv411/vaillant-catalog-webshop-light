@@ -9,7 +9,7 @@ const HeroSection = () => (
       <div className="bg-white rounded-lg shadow-lg p-6 md:p-8">
         <div className="flex flex-col lg:flex-row h-full">
           {/* Linke Hälfte - Text Content */}
-          <div className="w-full lg:w-1/2 pr-0 lg:pr-8 flex flex-col justify-center">
+          <div className="w-full lg:w-1/2 pr-0 lg:pr-8 flex flex-col justify-center items-center text-center">
             <h1 className="text-3xl md:text-4xl font-bold text-gray-800 mb-3 leading-tight">
               Willkommen zum <span className="text-primary">Vaillant</span> <br />
               <span className="text-primary">B2B Katalog 2025</span>

@@ -34,8 +34,8 @@ const NewHeroSection = () => (
           </div>
         </div>
 
-        {/* Right side card - now wider and full height */}
-        <div className="relative z-10 flex-shrink-0 h-full flex items-center">
+        {/* Right side card - now wider and full height with right margin */}
+        <div className="relative z-10 flex-shrink-0 h-full flex items-center mr-8">
           <Card className="w-96 h-full bg-white shadow-lg rounded-l-lg rounded-r-none flex flex-col">
             <CardContent className="p-8 flex-1 flex flex-col justify-center">
               <h2 className="text-xl font-semibold text-gray-800 mb-6">

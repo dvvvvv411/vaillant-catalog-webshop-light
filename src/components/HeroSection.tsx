@@ -1,4 +1,3 @@
-
 import React from "react";
 import { FileDown, Star, Shield, Clock, Award, Phone, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -8,10 +7,10 @@ const HeroSection = () => (
     <div className="container">
       <div className="bg-white rounded-lg shadow p-6 md:p-8">
         {/* Header with Vaillant Logo and Geschäftskunden */}
-        <div className="flex items-center justify-between mb-6 pb-4 border-b border-gray-200">
+        <div className="flex items-center justify-center mb-6">
           <div className="flex items-center gap-3">
             <img 
-              src="https://images.unsplash.com/photo-1483058712412-4245e9b90334?w=120&h=60&fit=crop&crop=center" 
+              src="https://www.vaillant.de/vaillant-de/vaillant-logo-de-2387452.png" 
               alt="Vaillant Logo" 
               className="h-8 w-auto object-contain"
             />

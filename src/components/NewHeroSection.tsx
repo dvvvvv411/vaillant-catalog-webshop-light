@@ -1,4 +1,3 @@
-
 import React from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -23,7 +22,6 @@ const NewHeroSection = () => (
           }}
         />
         
-        {/* Left side content */}
         <div className="relative z-10 flex-1 px-8">
           <div className="text-white max-w-lg">
             <h1 className="text-4xl md:text-5xl font-bold mb-4 drop-shadow-lg">
@@ -35,13 +33,12 @@ const NewHeroSection = () => (
           </div>
         </div>
 
-        {/* Right side card - now wider and full height with right margin */}
         <div className="relative z-10 flex-shrink-0 h-full flex items-center mr-8">
           <Card className="w-96 h-full bg-white shadow-lg rounded-l-lg rounded-r-none flex flex-col">
             <CardContent className="p-8 flex-1 flex flex-col justify-center">
               <div className="space-y-4">
-                <h1 className="text-2xl font-bold text-gray-800 text-center">
-                  Zukunftsfähige Heizlösungen mit Vaillant
+                <h1 className="text-2xl text-gray-800 text-center">
+                  Zukunftsfähige Heizlösungen mit<br />Vaillant
                 </h1>
                 <ol className="space-y-4">
                   <li className="flex items-center gap-3">

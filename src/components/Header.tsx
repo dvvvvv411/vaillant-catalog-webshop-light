@@ -1,5 +1,7 @@
+
 import React from "react";
 import { Search } from "lucide-react";
+import { Button } from "@/components/ui/button";
 
 const Header = () => (
   <header className="w-full bg-white shadow-sm">
@@ -47,12 +49,11 @@ const Header = () => (
         <span className="hidden sm:inline text-2xl font-semibold text-gray-700 tracking-wide">B2B Vertriebspartner-Katalog</span>
       </div>
       <div className="flex items-center gap-6">
-        <a
-          href="#katalog"
-          className="font-medium text-primary hover:underline underline-offset-4 text-lg"
+        <Button 
+          className="bg-primary text-white hover:bg-primary/90 rounded-xl px-6 py-2 text-lg font-medium"
         >
           B2B Katalog
-        </a>
+        </Button>
       </div>
     </nav>
   </header>

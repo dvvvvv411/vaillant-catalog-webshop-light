@@ -38,35 +38,31 @@ const NewHeroSection = () => (
         {/* Right side card - now wider and full height with right margin */}
         <div className="relative z-10 flex-shrink-0 h-full flex items-center mr-8">
           <Card className="w-96 h-full bg-white shadow-lg rounded-l-lg rounded-r-none flex flex-col">
-            <CardContent className="p-8 flex-1 flex flex-col justify-center items-center text-center">
-              <h2 className="text-xl font-semibold text-gray-800 mb-8">
+            <CardContent className="p-8 flex-1 flex flex-col justify-center">
+              <h1 className="text-2xl font-bold text-gray-800 mb-8 text-center">
                 Zukunftsfähige Heizlösungen mit Vaillant
-              </h2>
-              <ul className="space-y-6 mb-8 flex-1 flex flex-col justify-center">
-                <li className="flex items-center gap-3 justify-center">
-                  <Check className="w-5 h-5 text-black" />
-                  <Check className="w-5 h-5 text-black" />
-                  <Check className="w-5 h-5 text-black" />
-                  <span className="text-gray-700 ml-2">Hohe Qualität</span>
+              </h1>
+              <ol className="space-y-4 mb-8 flex-1 flex flex-col justify-center">
+                <li className="flex items-center gap-3">
+                  <Check className="w-5 h-5 text-primary flex-shrink-0" />
+                  <span className="text-gray-700">Hohe Qualität</span>
                 </li>
-                <li className="flex items-center gap-3 justify-center">
-                  <Check className="w-5 h-5 text-black" />
-                  <Check className="w-5 h-5 text-black" />
-                  <Check className="w-5 h-5 text-black" />
-                  <span className="text-gray-700 ml-2">Modernste Technik</span>
+                <li className="flex items-center gap-3">
+                  <Check className="w-5 h-5 text-primary flex-shrink-0" />
+                  <span className="text-gray-700">Modernste Technik</span>
                 </li>
-                <li className="flex items-center gap-3 justify-center">
-                  <Check className="w-5 h-5 text-black" />
-                  <Check className="w-5 h-5 text-black" />
-                  <Check className="w-5 h-5 text-black" />
-                  <span className="text-gray-700 ml-2">Fachhandwerksbetriebe in Ihrer Nähe</span>
+                <li className="flex items-center gap-3">
+                  <Check className="w-5 h-5 text-primary flex-shrink-0" />
+                  <span className="text-gray-700">Fachhandwerksbetriebe in Ihrer Nähe</span>
                 </li>
-              </ul>
-              <Button 
-                className="w-full bg-primary text-white hover:bg-primary/90"
-              >
-                Jetzt unverbindliches Angebot anfordern
-              </Button>
+              </ol>
+              <div className="mt-auto">
+                <Button 
+                  className="w-full bg-primary text-white hover:bg-primary/90"
+                >
+                  Jetzt unverbindliches Angebot anfordern
+                </Button>
+              </div>
             </CardContent>
           </Card>
         </div>

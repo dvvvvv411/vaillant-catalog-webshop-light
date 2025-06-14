@@ -12,9 +12,9 @@ const HeroSection = () => (
             <img 
               src="https://www.vaillant.de/vaillant-de/vaillant-logo-de-2387452.png" 
               alt="Vaillant Logo" 
-              className="h-8 w-auto object-contain"
+              className="h-12 w-auto object-contain"
             />
-            <span className="text-lg font-semibold text-gray-800">Geschäftskunden</span>
+            <span className="text-xl font-semibold text-gray-800">Geschäftskunden</span>
           </div>
         </div>
 

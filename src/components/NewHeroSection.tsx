@@ -10,7 +10,7 @@ const NewHeroSection = () => (
       <div 
         className="relative h-[600px] overflow-hidden rounded-lg flex items-center"
         style={{
-          backgroundImage: "url('https://www.vaillant.de/vaillant-de/startseite-1/titelbilder-startseite/vai-de-foedermotiv2025-startseite-header-3700x1680-2999392-format-24-9@1440@desktop.jpg')",
+          backgroundImage: "url('https://www.myvaillantpro.de/_next/image?url=https%3A%2F%2Fvaillantprod-media.e-spirit.cloud%2F5cd5b6c1-e1b5-4e7f-86dc-3c7e01bfe78f%2Fimportedmedia%2Ffachpartnernet-video_IMAGE_16_9.jpg&w=3840&q=75')",
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat"

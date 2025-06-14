@@ -93,11 +93,11 @@ const HeroSection = () => <section className="py-4 bg-[#efefef]">
               </div>
               <div className="flex items-center gap-2 text-gray-700">
                 <Mail className="h-4 w-4 text-primary" />
-                <span className="font-medium">geschaeftskunden@vaillant.de</span>
+                <span className="font-medium">m.vogt@vaillant-vertrieb.de</span>
               </div>
             </div>
             <p className="text-sm text-gray-600 mt-3">
-              Montag bis Freitag: 8:00 - 18:00 Uhr
+              Montag bis Freitag: 8:00 - 17:00 Uhr
             </p>
           </div>
         </div>

@@ -56,9 +56,11 @@ const NewHeroSection = () => (
                   </li>
                 </ol>
                 <Button 
-                  className="w-full bg-primary text-white hover:bg-primary/90"
+                  className="w-full bg-primary text-white hover:bg-primary/90 rounded-full px-6 py-3 h-auto leading-tight"
                 >
-                  Jetzt unverbindliches Angebot anfordern
+                  <span className="text-center">
+                    Jetzt unverbindliches Angebot<br />anfordern
+                  </span>
                 </Button>
               </div>
             </CardContent>

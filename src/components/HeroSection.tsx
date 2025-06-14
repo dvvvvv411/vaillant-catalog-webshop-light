@@ -7,6 +7,18 @@ const HeroSection = () => (
   <section className="py-4 bg-[#efefef]">
     <div className="container">
       <div className="bg-white rounded-lg shadow p-6 md:p-8">
+        {/* Header with Vaillant Logo and Geschäftskunden */}
+        <div className="flex items-center justify-between mb-6 pb-4 border-b border-gray-200">
+          <div className="flex items-center gap-3">
+            <img 
+              src="https://images.unsplash.com/photo-1483058712412-4245e9b90334?w=120&h=60&fit=crop&crop=center" 
+              alt="Vaillant Logo" 
+              className="h-8 w-auto object-contain"
+            />
+            <span className="text-lg font-semibold text-gray-800">Geschäftskunden</span>
+          </div>
+        </div>
+
         <div className="flex flex-col lg:flex-row items-center gap-8 min-h-[500px]">
           {/* Linke Hälfte - Text Content */}
           <div className="flex-1 flex flex-col justify-center items-center text-center lg:w-1/2">

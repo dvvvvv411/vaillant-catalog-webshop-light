@@ -1,4 +1,3 @@
-
 import React from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -58,7 +57,7 @@ const NewHeroSection = () => (
                 <Button 
                   className="w-full bg-primary text-white hover:bg-primary/90 rounded-full px-6 py-3 h-auto leading-tight"
                 >
-                  <span className="text-center">
+                  <span className="text-center text-lg">
                     Jetzt unverbindliches Angebot<br />anfordern
                   </span>
                 </Button>
@@ -67,7 +66,6 @@ const NewHeroSection = () => (
           </Card>
         </div>
 
-        {/* Übergangs-Bild am unteren Rand */}
         <div 
           className="absolute bottom-0 left-0 right-0 h-20 z-20"
           style={{

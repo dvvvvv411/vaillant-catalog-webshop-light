@@ -4,7 +4,7 @@ import { Search } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const Header = () => (
-  <header className="w-full bg-white shadow-sm">
+  <header className="w-full bg-white shadow-lg">
     {/* Top Bar */}
     <div className="w-full" style={{ backgroundColor: "#eee" }}>
       <div className="container flex items-center justify-between h-10">
@@ -38,7 +38,7 @@ const Header = () => (
     </div>
     
     {/* Main Header - no gap */}
-    <nav className="container flex items-center justify-between h-20 gap-4 -mt-px">
+    <nav className="container flex items-center justify-between h-24 gap-4 -mt-px">
       <div className="flex items-center gap-3">
         <img
           src="https://www.vaillant.at/media-master/global-media/layout/logos/old/vaillant-logo-272x72-1888261.png"

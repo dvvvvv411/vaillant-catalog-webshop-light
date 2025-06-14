@@ -4,7 +4,7 @@ import React from "react";
 const IntroductionSection = () => {
   return (
     <section className="py-16 bg-[#efefef]">
-      <div className="container max-w-4xl">
+      <div className="container">
         <div className="bg-white rounded-lg shadow-lg p-8 md:p-12">
           <h3 className="text-xl md:text-2xl font-semibold text-primary mb-6 text-center">
             "Sei innovativ, hör auf deine Kunden!" Firmengründer Johann Vaillant, 1874

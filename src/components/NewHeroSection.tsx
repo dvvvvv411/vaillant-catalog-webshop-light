@@ -53,7 +53,7 @@ const NewHeroSection = () => (
         <div 
           className="absolute bottom-0 left-0 right-0 h-20 z-20"
           style={{
-            backgroundImage: "url('https://i.imgur.com/qVpsN9l.png')",
+            backgroundImage: "url('https://i.imgur.com/QYAYNJv.png')",
             backgroundSize: "cover",
             backgroundPosition: "center",
             backgroundRepeat: "no-repeat"

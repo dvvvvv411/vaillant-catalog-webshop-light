@@ -56,12 +56,12 @@ const HeroSection = () => (
           </div>
           
           {/* Rechte Hälfte - Bild */}
-          <div className="flex-1 flex justify-center items-center lg:w-1/2">
-            <div className="relative">
+          <div className="flex-1 flex justify-center items-center lg:w-1/2 h-full">
+            <div className="relative w-full max-w-sm">
               <img
                 src="https://i.imgur.com/Gr5AlFF.png"
                 alt="Vaillant B2B Katalog 2025"
-                className="w-64 h-auto object-contain drop-shadow-lg rounded-lg"
+                className="w-full h-auto object-contain drop-shadow-lg rounded-lg"
                 loading="eager"
               />
               <div className="absolute -top-2 -right-2 bg-primary text-white text-xs px-2 py-1 rounded-full font-medium">

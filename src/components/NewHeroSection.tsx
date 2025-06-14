@@ -55,7 +55,7 @@ const NewHeroSection = () => (
                   </li>
                 </ol>
                 <Button 
-                  className="w-full bg-primary text-white hover:bg-primary/90 rounded-full px-6 py-3 h-auto leading-tight"
+                  className="w-full bg-primary text-white hover:bg-primary/90 rounded-lg px-6 py-3 h-auto leading-tight"
                 >
                   <span className="text-center text-lg">
                     Jetzt unverbindliches Angebot<br />anfordern

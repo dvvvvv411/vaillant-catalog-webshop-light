@@ -64,9 +64,6 @@ const HeroSection = () => (
                 className="w-full h-auto object-contain drop-shadow-lg rounded-lg"
                 loading="eager"
               />
-              <div className="absolute -top-2 -right-2 bg-primary text-white text-xs px-2 py-1 rounded-full font-medium">
-                NEU 2025
-              </div>
             </div>
           </div>
         </div>

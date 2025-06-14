@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -25,7 +26,7 @@ export default {
 				background: 'hsl(var(--background))',
 				foreground: 'hsl(var(--foreground))',
 				primary: {
-					DEFAULT: 'hsl(var(--primary))',
+					DEFAULT: '#00917e', // Vaillant Akzentfarbe
 					foreground: 'hsl(var(--primary-foreground))'
 				},
 				secondary: {
@@ -41,8 +42,8 @@ export default {
 					foreground: 'hsl(var(--muted-foreground))'
 				},
 				accent: {
-					DEFAULT: 'hsl(var(--accent))',
-					foreground: 'hsl(var(--accent-foreground))'
+					DEFAULT: '#00917e', // Akzent = primary
+					foreground: '#fff'
 				},
 				popover: {
 					DEFAULT: 'hsl(var(--popover))',
@@ -89,8 +90,12 @@ export default {
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
 				'accordion-up': 'accordion-up 0.2s ease-out'
-			}
+			},
+			fontFamily: {
+				sans: ['Inter', 'system-ui', 'sans-serif'],
+			},
 		}
 	},
 	plugins: [require("tailwindcss-animate")],
 } satisfies Config;
+

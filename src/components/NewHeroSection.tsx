@@ -27,7 +27,7 @@ const NewHeroSection = () => <section className="w-full pb-3">
                   </li>
                   <li className="flex items-center gap-3">
                     <Check className="w-5 h-5 text-primary flex-shrink-0" />
-                    <span className="text-gray-700">Fachhandwerksbetriebe in Ihrer Nähe</span>
+                    <span className="text-gray-700">Zertifizierte Fachpartner in Ihrer Nähe</span>
                   </li>
                 </ol>
                 <Button className="w-full bg-primary text-white hover:bg-primary/90 rounded-3xl px-6 py-3 h-auto leading-tight">

@@ -9,7 +9,7 @@ const Header = () => (
         <div className="flex items-center gap-6">
           <a
             href="/"
-            className="text-base text-gray-700 hover:text-primary transition-colors px-3 py-3 bg-white rounded-t shadow-sm"
+            className="text-base text-gray-700 hover:text-primary transition-colors px-3 py-3 bg-white rounded-t"
           >
             Geschäftskunden
           </a>

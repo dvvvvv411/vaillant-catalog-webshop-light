@@ -4,7 +4,7 @@ const IntroductionSection = () => {
   return (
     <section className="py-3 bg-[#efefef]">
       <div className="container">
-        <div className="bg-white rounded-lg shadow-lg p-8 md:p-12">
+        <div className="bg-white rounded-lg shadow p-8 md:p-12">
           <h3 className="text-xl md:text-2xl font-semibold text-gray-800 mb-6 text-left">
             "Sei innovativ, hör auf deine Kunden!" Firmengründer Johann Vaillant, 1874
           </h3>

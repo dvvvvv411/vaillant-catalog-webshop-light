@@ -5,7 +5,7 @@ const NewHeroSection = () => (
   <section className="w-full py-16">
     <div className="container">
       <div 
-        className="relative h-[500px] overflow-hidden rounded-lg"
+        className="relative h-[600px] overflow-hidden rounded-lg"
         style={{
           backgroundImage: "url('https://i.imgur.com/Oi5cX9c.jpeg')",
           backgroundSize: "cover",

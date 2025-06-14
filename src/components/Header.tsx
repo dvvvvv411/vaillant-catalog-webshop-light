@@ -9,27 +9,28 @@ const Header = () => (
       <div className="container flex items-center justify-between h-10">
         <div className="flex items-center gap-6">
           <a
-            href="#geschaeftskunden"
-            className="text-sm text-gray-700 hover:text-primary transition-colors"
+            href="/"
+            className="text-base text-gray-700 hover:text-primary transition-colors px-3 py-1 bg-white rounded shadow-sm"
           >
             Geschäftskunden
           </a>
           <a
             href="#privatkunden"
-            className="text-sm text-gray-700 hover:text-primary transition-colors"
+            className="text-base text-gray-700 hover:text-primary transition-colors px-3 py-1 hover:bg-white hover:rounded hover:shadow-sm"
           >
             Privatkunden
           </a>
           <a
             href="#fachpartnernet"
-            className="text-sm text-gray-700 hover:text-primary transition-colors"
+            className="text-base text-gray-700 hover:text-primary transition-colors px-3 py-1 hover:bg-white hover:rounded hover:shadow-sm"
           >
             FachpartnerNET
           </a>
         </div>
-        <div className="flex items-center">
-          <button className="p-2 text-gray-700 hover:text-primary transition-colors">
+        <div className="flex items-center gap-2">
+          <button className="p-2 text-gray-700 hover:text-primary transition-colors flex items-center gap-2">
             <Search size={16} />
+            <span className="text-base">Suchen</span>
           </button>
         </div>
       </div>

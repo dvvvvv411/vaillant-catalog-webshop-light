@@ -1,3 +1,4 @@
+
 import React from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -5,12 +6,32 @@ import { Check } from "lucide-react";
 
 const NewHeroSection = () => {
   const scrollToB2BCatalog = () => {
-    // Search for element containing the specific text
+    // First try to find the button element directly
+    const buttons = document.querySelectorAll('button');
+    let targetButton = null;
+    
+    for (let button of buttons) {
+      if (button.textContent?.includes('B2B Katalog herunterladen')) {
+        targetButton = button;
+        break;
+      }
+    }
+    
+    // If button found, scroll to it
+    if (targetButton) {
+      targetButton.scrollIntoView({ 
+        behavior: 'smooth',
+        block: 'center'
+      });
+      return;
+    }
+    
+    // Fallback: search for any element containing the text
     const elements = document.querySelectorAll('*');
     let targetElement = null;
     
     for (let element of elements) {
-      if (element.textContent?.includes('Professionelle Bestellung & Beratung')) {
+      if (element.textContent?.includes('B2B Katalog herunterladen')) {
         targetElement = element as HTMLElement;
         break;
       }
@@ -19,8 +40,10 @@ const NewHeroSection = () => {
     if (targetElement) {
       targetElement.scrollIntoView({ 
         behavior: 'smooth',
-        block: 'start'
+        block: 'center'
       });
+    } else {
+      console.warn('B2B Katalog section not found');
     }
   };
 

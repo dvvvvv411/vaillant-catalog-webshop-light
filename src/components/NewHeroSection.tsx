@@ -1,3 +1,4 @@
+
 import React from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -80,7 +81,7 @@ const NewHeroSection = () => {
                     className="w-full bg-primary text-white hover:bg-primary/90 rounded-3xl px-6 py-3 h-auto leading-tight"
                   >
                     <span className="text-center text-lg">
-                      Jetzt B2B-Katalog anfordern
+                      Jetzt B2B-Katalog ansehen
                     </span>
                   </Button>
                 </div>
@@ -138,7 +139,7 @@ const NewHeroSection = () => {
                   className="w-full bg-primary text-white hover:bg-primary/90 rounded-3xl px-6 py-3 h-auto leading-tight"
                 >
                   <span className="text-center text-lg">
-                    Jetzt B2B-Katalog anfordern
+                    Jetzt B2B-Katalog ansehen
                   </span>
                 </Button>
               </div>

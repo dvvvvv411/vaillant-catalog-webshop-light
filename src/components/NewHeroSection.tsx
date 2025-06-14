@@ -1,8 +1,9 @@
 
+
 import React from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { Check } from "lucide-react";
+import { Check, Mail, Phone } from "lucide-react";
 
 const NewHeroSection = () => (
   <section className="w-full pb-3">
@@ -45,6 +46,25 @@ const NewHeroSection = () => (
                     Jetzt unverbindliches Angebot<br />anfordern
                   </span>
                 </Button>
+                
+                {/* Bestellhinweis */}
+                <div className="bg-blue-50 p-4 rounded-lg border border-blue-200">
+                  <p className="text-sm text-gray-700 font-medium mb-2">Bestellungen bitte über:</p>
+                  <div className="space-y-1">
+                    <div className="flex items-center gap-2 text-sm text-gray-600">
+                      <Mail className="w-4 h-4 text-primary" />
+                      <a href="mailto:info@vaillant-vertrieb.de" className="hover:text-primary">
+                        info@vaillant-vertrieb.de
+                      </a>
+                    </div>
+                    <div className="flex items-center gap-2 text-sm text-gray-600">
+                      <Phone className="w-4 h-4 text-primary" />
+                      <a href="tel:02191 9413997" className="hover:text-primary">
+                        02191 9413997
+                      </a>
+                    </div>
+                  </div>
+                </div>
               </div>
             </CardContent>
           </Card>
@@ -65,3 +85,4 @@ const NewHeroSection = () => (
 );
 
 export default NewHeroSection;
+

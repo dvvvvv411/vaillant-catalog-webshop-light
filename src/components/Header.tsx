@@ -50,7 +50,7 @@ const Header = () => (
       </div>
       <div className="flex items-center gap-6">
         <Button 
-          className="bg-primary text-white hover:bg-primary/90 rounded-2xl px-8 py-3 text-xl font-normal"
+          className="bg-primary text-white hover:bg-primary/90 rounded-full px-12 py-4 text-xl font-normal"
         >
           B2B Katalog
         </Button>

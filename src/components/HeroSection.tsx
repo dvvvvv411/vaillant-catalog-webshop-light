@@ -9,7 +9,7 @@ const HeroSection = () => <section className="py-4 bg-[#efefef]">
         <div className="flex items-center justify-center mb-6">
           <div className="flex items-center gap-3">
             <img src="https://www.vaillant.de/vaillant-de/vaillant-logo-de-2387452.png" alt="Vaillant Logo" className="h-12 w-auto object-contain" />
-            <span className="text-xl font-semibold text-gray-800">Geschäftskunden</span>
+            <span className="hidden md:inline text-xl font-semibold text-gray-800">Geschäftskunden</span>
           </div>
         </div>
 

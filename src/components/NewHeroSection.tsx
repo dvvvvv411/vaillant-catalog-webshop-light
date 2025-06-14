@@ -1,3 +1,4 @@
+
 import React from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -65,6 +66,17 @@ const NewHeroSection = () => (
             </CardContent>
           </Card>
         </div>
+
+        {/* Übergangs-Bild am unteren Rand */}
+        <div 
+          className="absolute bottom-0 left-0 right-0 h-20 z-20"
+          style={{
+            backgroundImage: "url('https://i.imgur.com/QYAYNJv.png')",
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+            backgroundRepeat: "no-repeat"
+          }}
+        />
       </div>
     </div>
   </section>

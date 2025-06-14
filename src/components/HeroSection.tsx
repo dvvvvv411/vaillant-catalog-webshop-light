@@ -47,27 +47,10 @@ const HeroSection = () => <section className="py-4 bg-[#efefef]">
                 </div>
               </div>
 
-              <Button 
-                asChild 
-                size="lg" 
-                className="px-7 py-6 h-auto rounded-xl mb-3 text-lg font-semibold"
-                style={{
-                  backgroundColor: '#ffb129',
-                  color: '#00917e',
-                  borderColor: '#ffb129'
-                }}
-                onMouseEnter={(e) => {
-                  e.currentTarget.style.backgroundColor = '#00917e';
-                  e.currentTarget.style.color = 'white';
-                }}
-                onMouseLeave={(e) => {
-                  e.currentTarget.style.backgroundColor = '#ffb129';
-                  e.currentTarget.style.color = '#00917e';
-                }}
-              >
+              <Button asChild size="lg" className="px-7 py-3 rounded-xl mb-3">
                 <a href="/vaillant-b2b-katalog-2025.pdf" download className="flex items-center gap-2">
-                  <FileDown size={24} />
-                  <span>B2B Katalog herunterladen</span>
+                  <FileDown size={22} />
+                  <span>B2B Katalog 2025 herunterladen</span>
                 </a>
               </Button>
               <p className="text-sm text-gray-500 italic">Jetzt neu: Digitale Version verfügbar • 15 Seiten • PDF Format</p>

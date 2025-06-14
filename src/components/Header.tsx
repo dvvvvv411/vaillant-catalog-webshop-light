@@ -10,7 +10,7 @@ const Header = () => (
         <div className="flex items-center gap-6">
           <a
             href="/"
-            className="text-base text-gray-700 hover:text-primary transition-colors px-3 py-1 bg-white rounded shadow-sm"
+            className="text-base text-gray-700 hover:text-primary transition-colors px-3 py-1 bg-white rounded-t shadow-sm"
           >
             Geschäftskunden
           </a>
@@ -36,8 +36,8 @@ const Header = () => (
       </div>
     </div>
     
-    {/* Main Header */}
-    <nav className="container flex items-center justify-between h-20 gap-4">
+    {/* Main Header - no gap */}
+    <nav className="container flex items-center justify-between h-20 gap-4 -mt-px">
       <div className="flex items-center gap-3">
         <img
           src="https://www.vaillant.at/media-master/global-media/layout/logos/old/vaillant-logo-272x72-1888261.png"

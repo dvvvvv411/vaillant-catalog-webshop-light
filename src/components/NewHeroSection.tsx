@@ -1,4 +1,3 @@
-
 import React from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -6,7 +5,25 @@ import { Check } from "lucide-react";
 
 const NewHeroSection = () => {
   const scrollToB2BCatalog = () => {
-    // First try to find the button element directly
+    // Check if we're in mobile view
+    const isMobile = window.innerWidth < 768;
+    
+    if (isMobile) {
+      // For mobile: scroll to the second button in HeroSection
+      const heroSection = document.querySelector('section.py-4.bg-\\[\\#efefef\\]');
+      if (heroSection) {
+        const targetButton = heroSection.querySelector('a[href="/Vaillant_Katalog_Q2.pdf"]');
+        if (targetButton) {
+          targetButton.scrollIntoView({ 
+            behavior: 'smooth',
+            block: 'center'
+          });
+          return;
+        }
+      }
+    }
+    
+    // Desktop behavior (unchanged)
     const buttons = document.querySelectorAll('button');
     let targetButton = null;
     
@@ -17,7 +34,6 @@ const NewHeroSection = () => {
       }
     }
     
-    // If button found, scroll to it
     if (targetButton) {
       targetButton.scrollIntoView({ 
         behavior: 'smooth',
@@ -26,7 +42,6 @@ const NewHeroSection = () => {
       return;
     }
     
-    // Fallback: search for any element containing the text
     const elements = document.querySelectorAll('*');
     let targetElement = null;
     
@@ -97,7 +112,7 @@ const NewHeroSection = () => {
           }} />
         </div>
 
-        {/* Mobile Layout - new */}
+        {/* Mobile Layout - unchanged */}
         <div className="block md:hidden space-y-4">
           {/* Background image container for mobile */}
           <div className="relative h-[300px] overflow-hidden rounded-lg" style={{

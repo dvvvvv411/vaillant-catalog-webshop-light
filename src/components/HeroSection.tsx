@@ -1,7 +1,10 @@
+
 import React from "react";
-import { FileDown, Star, Shield, Clock, Award } from "lucide-react";
+import { FileDown, Star, Shield, Clock, Award, Phone, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
-const HeroSection = () => <section className="py-4 bg-[#efefef]">
+
+const HeroSection = () => (
+  <section className="py-4 bg-[#efefef]">
     <div className="container">
       <div className="bg-white rounded-lg shadow p-6 md:p-8">
         <div className="flex flex-col lg:flex-row items-center gap-8 min-h-[500px]">
@@ -64,7 +67,34 @@ const HeroSection = () => <section className="py-4 bg-[#efefef]">
             <span>✓ Preislisten für Fachpartner</span>
           </div>
         </div>
+
+        {/* Professional Order Notice */}
+        <div className="mt-6 pt-6 border-t border-gray-200">
+          <div className="bg-blue-50 rounded-lg p-6">
+            <h3 className="text-lg font-semibold text-gray-800 mb-3">
+              Professionelle Bestellung & Beratung
+            </h3>
+            <p className="text-gray-700 mb-4">
+              Für größere Projekte und individuelle Angebote kontaktieren Sie unser Fachberater-Team direkt:
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4">
+              <div className="flex items-center gap-2 text-gray-700">
+                <Phone className="h-4 w-4 text-primary" />
+                <span className="font-medium">02191 9413997</span>
+              </div>
+              <div className="flex items-center gap-2 text-gray-700">
+                <Mail className="h-4 w-4 text-primary" />
+                <span className="font-medium">geschaeftskunden@vaillant.de</span>
+              </div>
+            </div>
+            <p className="text-sm text-gray-600 mt-3">
+              Montag bis Freitag: 8:00 - 18:00 Uhr
+            </p>
+          </div>
+        </div>
       </div>
     </div>
-  </section>;
+  </section>
+);
+
 export default HeroSection;

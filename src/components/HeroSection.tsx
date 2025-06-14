@@ -58,19 +58,10 @@ const HeroSection = () => (
             </div>
           </div>
         </div>
-        
-        {/* Zusätzliche Info-Leiste */}
-        <div className="mt-6 pt-6 border-t border-gray-100">
-          <div className="flex flex-wrap items-center justify-between text-sm text-gray-600">
-            <span>✓ Über 200 Produkte im Katalog</span>
-            <span>✓ Technische Datenblätter inklusive</span>
-            <span>✓ Preislisten für Fachpartner</span>
-          </div>
-        </div>
 
         {/* Professional Order Notice */}
         <div className="mt-6 pt-6 border-t border-gray-200">
-          <div className="bg-blue-50 rounded-lg p-6">
+          <div className="bg-green-50 rounded-lg p-6">
             <h3 className="text-lg font-semibold text-gray-800 mb-3">
               Professionelle Bestellung & Beratung
             </h3>

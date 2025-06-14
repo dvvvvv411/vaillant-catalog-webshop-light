@@ -1,6 +1,8 @@
+
 import React from "react";
-import { Search } from "lucide-react";
+import { Search, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
+
 const Header = () => <header className="w-full bg-white shadow-sm">
     {/* Top Bar */}
     <div className="w-full" style={{
@@ -36,8 +38,12 @@ const Header = () => <header className="w-full bg-white shadow-sm">
         <span className="hidden sm:inline text-2xl font-semibold text-gray-700 tracking-wide">Geschäftskunden</span>
       </div>
       <div className="flex items-center gap-6">
-        <Button className="bg-primary text-white hover:bg-primary/90 rounded-full px-12 py-4 text-xl font-normal">02191 9413997</Button>
+        <Button className="bg-primary text-white hover:bg-primary/90 rounded-full px-12 py-4 text-xl font-normal">
+          <Phone size={20} />
+          02191 9413997
+        </Button>
       </div>
     </nav>
   </header>;
+
 export default Header;

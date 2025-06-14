@@ -32,10 +32,10 @@ const AboutVaillant = () => {
   ];
 
   return (
-    <section className="py-16 bg-white">
+    <section className="py-16 bg-[#efefef]">
       <div className="container">
         <div className="mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-800 text-center">
+          <h2 className="text-3xl md:text-4xl text-gray-800 text-left">
             Über Vaillant
           </h2>
         </div>

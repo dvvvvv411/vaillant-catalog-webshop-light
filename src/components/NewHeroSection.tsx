@@ -5,17 +5,14 @@ import { Check } from "lucide-react";
 
 const NewHeroSection = () => {
   const scrollToB2BCatalog = () => {
-    // Try to find element by ID first, then by text content
-    let targetElement = document.getElementById('b2b-katalog-section');
+    // Search for element containing the specific text
+    const elements = document.querySelectorAll('*');
+    let targetElement = null;
     
-    if (!targetElement) {
-      // If no ID found, search for element containing the text
-      const elements = document.querySelectorAll('*');
-      for (let element of elements) {
-        if (element.textContent?.includes('B2B Katalog herunterladen')) {
-          targetElement = element as HTMLElement;
-          break;
-        }
+    for (let element of elements) {
+      if (element.textContent?.includes('Ihr umfassender Überblick über professionelle Heiztechnik-Lösungen')) {
+        targetElement = element as HTMLElement;
+        break;
       }
     }
     

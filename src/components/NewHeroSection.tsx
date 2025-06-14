@@ -2,6 +2,7 @@
 import React from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
+import { Check } from "lucide-react";
 
 const NewHeroSection = () => (
   <section className="w-full">
@@ -37,32 +38,34 @@ const NewHeroSection = () => (
         {/* Right side card - now wider and full height with right margin */}
         <div className="relative z-10 flex-shrink-0 h-full flex items-center mr-8">
           <Card className="w-96 h-full bg-white shadow-lg rounded-l-lg rounded-r-none flex flex-col">
-            <CardContent className="p-8 flex-1 flex flex-col justify-center">
-              <h2 className="text-xl font-semibold text-gray-800 mb-6">
-                Ihre Vorteile mit Vaillant
+            <CardContent className="p-8 flex-1 flex flex-col justify-center items-center text-center">
+              <h2 className="text-xl font-semibold text-gray-800 mb-8">
+                Zukunftsfähige Heizlösungen mit Vaillant
               </h2>
-              <ul className="space-y-4 mb-8 flex-1">
-                <li className="flex items-start gap-3">
-                  <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                  <span className="text-gray-700">Höchste Qualität und Zuverlässigkeit</span>
+              <ul className="space-y-6 mb-8 flex-1 flex flex-col justify-center">
+                <li className="flex items-center gap-3 justify-center">
+                  <Check className="w-5 h-5 text-black" />
+                  <Check className="w-5 h-5 text-black" />
+                  <Check className="w-5 h-5 text-black" />
+                  <span className="text-gray-700 ml-2">Hohe Qualität</span>
                 </li>
-                <li className="flex items-start gap-3">
-                  <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                  <span className="text-gray-700">Energieeffiziente Lösungen</span>
+                <li className="flex items-center gap-3 justify-center">
+                  <Check className="w-5 h-5 text-black" />
+                  <Check className="w-5 h-5 text-black" />
+                  <Check className="w-5 h-5 text-black" />
+                  <span className="text-gray-700 ml-2">Modernste Technik</span>
                 </li>
-                <li className="flex items-start gap-3">
-                  <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                  <span className="text-gray-700">Kompetente Beratung und Service</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                  <span className="text-gray-700">Innovative Technologie</span>
+                <li className="flex items-center gap-3 justify-center">
+                  <Check className="w-5 h-5 text-black" />
+                  <Check className="w-5 h-5 text-black" />
+                  <Check className="w-5 h-5 text-black" />
+                  <span className="text-gray-700 ml-2">Fachhandwerksbetriebe in Ihrer Nähe</span>
                 </li>
               </ul>
               <Button 
                 className="w-full bg-primary text-white hover:bg-primary/90"
               >
-                Mehr erfahren
+                Jetzt unverbindliches Angebot anfordern
               </Button>
             </CardContent>
           </Card>

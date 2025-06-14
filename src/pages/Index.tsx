@@ -1,7 +1,7 @@
 
 import React from "react";
 import Header from "@/components/Header";
-import Footer from "@/components/Footer";
+import VaillantFooter from "@/components/VaillantFooter";
 import HeroSection from "@/components/HeroSection";
 import NewHeroSection from "@/components/NewHeroSection";
 import IntroductionSection from "@/components/IntroductionSection";
@@ -17,7 +17,7 @@ const Index = () => {
         <HeroSection />
         <AboutVaillant />
       </main>
-      <Footer />
+      <VaillantFooter />
     </div>
   );
 };

@@ -2,7 +2,7 @@
 import React from "react";
 
 const NewHeroSection = () => (
-  <section className="w-full py-16 -mt-16 pt-32">
+  <section className="w-full">
     <div className="container">
       <div 
         className="relative h-[600px] overflow-hidden rounded-lg"

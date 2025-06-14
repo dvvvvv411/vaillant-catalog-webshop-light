@@ -16,11 +16,11 @@ const Header = () => <header className="w-full bg-white shadow-sm">
           <a href="https://www.vaillant.de/heizung/" className="text-lg text-gray-700 hover:text-primary transition-colors px-4 py-2 hover:bg-white hover:rounded hover:shadow-sm">
             Privatkunden
           </a>
-          <a href="https://www.myvaillantpro.de/" className="text-lg text-gray-700 hover:text-primary transition-colors px-4 py-2 hover:bg-white hover:rounded hover:shadow-sm">
+          <a href="https://www.myvaillantpro.de/" className="hidden md:inline-block text-lg text-gray-700 hover:text-primary transition-colors px-4 py-2 hover:bg-white hover:rounded hover:shadow-sm">
             FachpartnerNET
           </a>
         </div>
-        <div className="flex items-center gap-2">
+        <div className="hidden md:flex items-center gap-2">
           <button className="p-2 text-gray-700 hover:text-primary transition-colors flex items-center gap-2">
             <Search size={18} />
             <span className="text-lg">Suchen</span>

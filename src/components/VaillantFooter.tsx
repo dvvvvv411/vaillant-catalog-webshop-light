@@ -1,4 +1,3 @@
-
 import React from "react";
 import { Facebook, Instagram, Youtube, Linkedin } from "lucide-react";
 
@@ -94,17 +93,17 @@ const VaillantFooter = () => {
   return (
     <footer className="bg-white border-t border-gray-200">
       {/* Campaign Section */}
-      <div className="bg-gray-50 py-8">
+      <div className="bg-white py-8">
         <div className="container mx-auto px-4">
-          <div className="flex flex-col md:flex-row items-center justify-center gap-4">
+          <div className="flex flex-col md:flex-row items-center justify-between gap-4">
+            <span className="text-lg font-medium text-gray-700">
+              Komfort für mein Zuhause
+            </span>
             <img 
               src="https://www.vaillant.de/vaillant-de/vaillant-logo-de-2387452.png" 
               alt="Zukunftsorientierte Heizung von Vaillant" 
               className="h-12"
             />
-            <span className="text-lg font-medium text-gray-700">
-              Komfort für mein Zuhause
-            </span>
           </div>
         </div>
       </div>

@@ -59,7 +59,7 @@ const HeroSection = () => (
           <div className="flex-1 flex justify-center items-center lg:w-1/2">
             <div className="relative">
               <img
-                src="https://www.pinaxo.com/cover/f0b480fdff4eaadc88d759ae03dbcdd9/472px/b73ad5d912ef9db47487db60c3b0b257/cover-vaillant-arotherm-plus"
+                src="https://i.imgur.com/Gr5AlFF.png"
                 alt="Vaillant B2B Katalog 2025"
                 className="w-64 h-auto object-contain drop-shadow-lg rounded-lg"
                 loading="eager"

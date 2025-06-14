@@ -50,8 +50,8 @@ const NewHeroSection = () => {
   return (
     <section className="w-full pb-3">
       <div className="container">
-        {/* Desktop View - Original Layout */}
-        <div className="hidden md:block relative h-[600px] overflow-hidden rounded-lg" style={{
+        {/* Desktop Layout */}
+        <div className="hidden md:block relative h-[600px] overflow-hidden rounded-lg flex items-center" style={{
           backgroundImage: "url('https://i.imgur.com/CjKKg5X.png')",
           backgroundSize: "cover",
           backgroundPosition: "center",
@@ -97,10 +97,10 @@ const NewHeroSection = () => {
           }} />
         </div>
 
-        {/* Mobile View - Stacked Layout */}
-        <div className="md:hidden">
-          {/* Background Image with bottom overlay for mobile */}
-          <div className="relative h-[400px] overflow-hidden rounded-lg mb-4" style={{
+        {/* Mobile Layout */}
+        <div className="md:hidden space-y-4">
+          {/* Background Image with bottom border image */}
+          <div className="relative h-[400px] overflow-hidden rounded-lg" style={{
             backgroundImage: "url('https://i.imgur.com/CjKKg5X.png')",
             backgroundSize: "cover",
             backgroundPosition: "center",
@@ -114,8 +114,8 @@ const NewHeroSection = () => {
             }} />
           </div>
 
-          {/* Card below the image for mobile */}
-          <Card className="w-full bg-gray-50 shadow rounded-lg">
+          {/* Card below the image */}
+          <Card className="bg-gray-50 shadow-md">
             <CardContent className="p-6">
               <div className="space-y-4">
                 <h1 className="text-xl text-gray-800 text-center">Exklusive B2B-Angebote mit Vaillant</h1>

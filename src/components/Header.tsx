@@ -7,31 +7,31 @@ const Header = () => (
   <header className="w-full bg-white shadow-sm">
     {/* Top Bar */}
     <div className="w-full" style={{ backgroundColor: "#eee" }}>
-      <div className="container flex items-center justify-between h-10">
+      <div className="container flex items-center justify-between h-14">
         <div className="flex items-center gap-6">
           <a
             href="/"
-            className="text-base text-gray-700 hover:text-primary transition-colors px-3 py-3 bg-white rounded-t"
+            className="text-lg text-gray-700 hover:text-primary transition-colors px-4 py-4 bg-white rounded-t"
           >
             Geschäftskunden
           </a>
           <a
             href="#privatkunden"
-            className="text-base text-gray-700 hover:text-primary transition-colors px-3 py-1 hover:bg-white hover:rounded hover:shadow-sm"
+            className="text-lg text-gray-700 hover:text-primary transition-colors px-4 py-2 hover:bg-white hover:rounded hover:shadow-sm"
           >
             Privatkunden
           </a>
           <a
             href="#fachpartnernet"
-            className="text-base text-gray-700 hover:text-primary transition-colors px-3 py-1 hover:bg-white hover:rounded hover:shadow-sm"
+            className="text-lg text-gray-700 hover:text-primary transition-colors px-4 py-2 hover:bg-white hover:rounded hover:shadow-sm"
           >
             FachpartnerNET
           </a>
         </div>
         <div className="flex items-center gap-2">
           <button className="p-2 text-gray-700 hover:text-primary transition-colors flex items-center gap-2">
-            <Search size={16} />
-            <span className="text-base">Suchen</span>
+            <Search size={18} />
+            <span className="text-lg">Suchen</span>
           </button>
         </div>
       </div>

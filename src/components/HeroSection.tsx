@@ -22,7 +22,7 @@ const HeroSection = () => <section className="py-4 bg-[#efefef]">
                 Willkommen zum <span className="text-primary">Vaillant</span> <br />
                 <span className="text-primary">B2B Katalog 2025</span>
               </h1>
-              <p className="text-lg text-gray-700 mb-4 text-center">
+              <p className="text-lg text-gray-700 mb-4 text-left">
                 Ihr umfassender Überblick über professionelle Heiztechnik-Lösungen: Von energieeffizienten Wärmepumpen bis zu innovativen Warmwasser-Systemen – alle Produkte mit technischen Spezifikationen, Preisen und Verfügbarkeiten für Fachbetriebe.
               </p>
               

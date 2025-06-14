@@ -5,7 +5,7 @@ const NewHeroSection = () => (
   <section className="w-full py-16">
     <div className="container">
       <div 
-        className="relative h-96 overflow-hidden rounded-lg"
+        className="relative h-[500px] overflow-hidden rounded-lg"
         style={{
           backgroundImage: "url('https://i.imgur.com/Oi5cX9c.jpeg')",
           backgroundSize: "cover",
@@ -16,7 +16,7 @@ const NewHeroSection = () => (
         <div 
           className="absolute inset-0 rounded-lg"
           style={{
-            background: "linear-gradient(to right, #00917e 0%, #00917e 20%, rgba(0, 145, 126, 0.7) 40%, rgba(0, 145, 126, 0.3) 60%, transparent 80%)"
+            background: "linear-gradient(to right, #00917e 0%, rgba(0, 145, 126, 0.8) 15%, rgba(0, 145, 126, 0.4) 30%, rgba(0, 145, 126, 0.2) 45%, transparent 70%)"
           }}
         />
         <div className="relative z-10 h-full flex items-center px-8">

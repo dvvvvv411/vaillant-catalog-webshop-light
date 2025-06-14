@@ -1,4 +1,3 @@
-
 import React from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -11,7 +10,7 @@ const NewHeroSection = () => {
     let targetButton = null;
     
     for (let button of buttons) {
-      if (button.textContent?.includes('B2B Katalog herunterladen')) {
+      if (button.textContent?.includes('B2B Katalog ansehen')) {
         targetButton = button;
         break;
       }
@@ -31,7 +30,7 @@ const NewHeroSection = () => {
     let targetElement = null;
     
     for (let element of elements) {
-      if (element.textContent?.includes('B2B Katalog herunterladen')) {
+      if (element.textContent?.includes('B2B Katalog ansehen')) {
         targetElement = element as HTMLElement;
         break;
       }

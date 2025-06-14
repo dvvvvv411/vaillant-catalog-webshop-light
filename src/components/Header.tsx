@@ -29,10 +29,10 @@ const Header = () => <header className="w-full bg-white shadow-sm">
       </div>
     </div>
     
-    {/* Main Header - no gap */}
+    {/* Main Header */}
     <nav className="container flex items-center justify-between md:justify-between justify-center h-24 gap-4 -mt-px">
       {/* Mobile: Centered logo with text below */}
-      <div className="flex md:hidden flex-col items-center gap-1">
+      <div className="flex md:hidden flex-col items-center gap-1 w-full justify-center">
         <img src="https://www.vaillant.at/media-master/global-media/layout/logos/old/vaillant-logo-272x72-1888261.png" alt="Vaillant Logo" className="h-12 w-auto" style={{
         imageRendering: "auto"
       }} />

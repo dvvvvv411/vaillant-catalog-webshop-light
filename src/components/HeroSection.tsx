@@ -61,7 +61,7 @@ const HeroSection = () => (
 
         {/* Professional Order Notice */}
         <div className="mt-6 pt-6 border-t border-gray-200">
-          <div className="bg-green-50 rounded-lg p-6">
+          <div className="rounded-lg p-6" style={{ backgroundColor: 'rgba(0, 145, 126, 0.1)' }}>
             <h3 className="text-lg font-semibold text-gray-800 mb-3">
               Professionelle Bestellung & Beratung
             </h3>

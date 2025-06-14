@@ -1,4 +1,3 @@
-
 import React from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -36,7 +35,7 @@ const NewHeroSection = () => (
 
         <div className="relative z-10 flex-shrink-0 h-full flex items-center mr-8">
           <Card className="w-[28rem] h-full bg-white shadow-lg rounded-l-lg rounded-r-none flex flex-col">
-            <CardContent className="p-8 flex-1 flex flex-col justify-center">
+            <CardContent className="p-8 flex-1 flex flex-col justify-start pt-16">
               <div className="space-y-4">
                 <h1 className="text-2xl text-gray-800 text-left">
                   Zukunftsfähige Heizlösungen mit Vaillant

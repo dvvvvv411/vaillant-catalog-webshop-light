@@ -1,19 +1,13 @@
 import React from "react";
 import { FileDown, Star, Shield, Clock, Award, Phone, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
-
-const HeroSection = () => (
-  <section className="py-4 bg-[#efefef]">
+const HeroSection = () => <section className="py-4 bg-[#efefef]">
     <div className="container">
       <div className="bg-white rounded-lg shadow p-6 md:p-8">
         {/* Header with Vaillant Logo and Geschäftskunden */}
         <div className="flex items-center justify-center mb-6">
           <div className="flex items-center gap-3">
-            <img 
-              src="https://www.vaillant.de/vaillant-de/vaillant-logo-de-2387452.png" 
-              alt="Vaillant Logo" 
-              className="h-12 w-auto object-contain"
-            />
+            <img src="https://www.vaillant.de/vaillant-de/vaillant-logo-de-2387452.png" alt="Vaillant Logo" className="h-12 w-auto object-contain" />
             <span className="text-xl font-semibold text-gray-800">Geschäftskunden</span>
           </div>
         </div>
@@ -56,9 +50,7 @@ const HeroSection = () => (
                   <span>B2B Katalog 2025 herunterladen</span>
                 </a>
               </Button>
-              <p className="text-sm text-gray-500 italic">
-                Jetzt neu: Digitale Version verfügbar • 156 Seiten • PDF Format
-              </p>
+              <p className="text-sm text-gray-500 italic">Jetzt neu: Digitale Version verfügbar • 15 Seiten • PDF Format</p>
             </div>
           </div>
           
@@ -72,7 +64,9 @@ const HeroSection = () => (
 
         {/* Professional Order Notice */}
         <div className="mt-6 pt-6 border-t border-gray-200">
-          <div className="rounded-lg p-6" style={{ backgroundColor: 'rgba(0, 145, 126, 0.1)' }}>
+          <div className="rounded-lg p-6" style={{
+          backgroundColor: 'rgba(0, 145, 126, 0.1)'
+        }}>
             <h3 className="text-lg font-semibold text-gray-800 mb-3">
               Professionelle Bestellung & Beratung
             </h3>
@@ -96,7 +90,5 @@ const HeroSection = () => (
         </div>
       </div>
     </div>
-  </section>
-);
-
+  </section>;
 export default HeroSection;

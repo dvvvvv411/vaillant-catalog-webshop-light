@@ -1,9 +1,7 @@
 import React from "react";
 import { FileDown, Star, Shield, Clock, Award } from "lucide-react";
 import { Button } from "@/components/ui/button";
-
-const HeroSection = () => (
-  <section className="py-4 bg-[#efefef]">
+const HeroSection = () => <section className="py-4 bg-[#efefef]">
     <div className="container">
       <div className="bg-white rounded-lg shadow p-6 md:p-8">
         <div className="flex flex-col lg:flex-row items-center gap-8 min-h-[500px]">
@@ -39,11 +37,7 @@ const HeroSection = () => (
               </div>
 
               <Button asChild size="lg" className="px-7 py-3 rounded-xl mb-3">
-                <a
-                  href="/vaillant-b2b-katalog-2025.pdf"
-                  download
-                  className="flex items-center gap-2"
-                >
+                <a href="/vaillant-b2b-katalog-2025.pdf" download className="flex items-center gap-2">
                   <FileDown size={22} />
                   <span>B2B Katalog 2025 herunterladen</span>
                 </a>
@@ -57,12 +51,7 @@ const HeroSection = () => (
           {/* Rechte Hälfte - Bild */}
           <div className="flex-1 flex justify-center items-center lg:w-1/2 h-full">
             <div className="relative w-full max-w-sm">
-              <img
-                src="https://i.imgur.com/Gr5AlFF.png"
-                alt="Vaillant B2B Katalog 2025"
-                className="w-full h-auto object-contain drop-shadow-lg rounded-lg"
-                loading="eager"
-              />
+              <img alt="Vaillant B2B Katalog 2025" className="w-full h-auto object-contain drop-shadow-lg rounded-lg" loading="eager" src="https://i.imgur.com/qVpsN9l.png" />
             </div>
           </div>
         </div>
@@ -77,7 +66,5 @@ const HeroSection = () => (
         </div>
       </div>
     </div>
-  </section>
-);
-
+  </section>;
 export default HeroSection;

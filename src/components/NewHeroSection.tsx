@@ -10,7 +10,7 @@ const NewHeroSection = () => {
     let targetElement = null;
     
     for (let element of elements) {
-      if (element.textContent?.includes('Ihr umfassender Überblick über professionelle Heiztechnik-Lösungen')) {
+      if (element.textContent?.includes('Professionelle Bestellung & Beratung')) {
         targetElement = element as HTMLElement;
         break;
       }

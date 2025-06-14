@@ -1,9 +1,7 @@
-
 import React from "react";
 import { FileDown, Star, Shield, Clock, Award, Phone, Mail, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
-
 const HeroSection = () => <section className="py-4 bg-[#efefef]">
     <div className="container">
       <div className="bg-white rounded-lg shadow p-6 md:p-8">
@@ -47,11 +45,7 @@ const HeroSection = () => <section className="py-4 bg-[#efefef]">
                 </div>
               </div>
 
-              <Button 
-                asChild 
-                size="lg" 
-                className="px-7 py-6 h-auto rounded-xl mb-3 text-lg font-semibold bg-primary text-white hover:bg-primary/80 transition-colors"
-              >
+              <Button asChild size="lg" className="px-7 py-6 h-auto rounded-xl mb-3 text-lg font-semibold bg-primary text-white hover:bg-primary/80 transition-colors">
                 <a href="/Vaillant_Katalog_Q2.pdf" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
                   <FileDown size={24} />
                   <span>B2B Katalog ansehen</span>
@@ -83,9 +77,7 @@ const HeroSection = () => <section className="py-4 bg-[#efefef]">
             <h3 className="text-lg font-semibold text-gray-800 mb-3">
               Professionelle Bestellung & Beratung
             </h3>
-            <p className="text-gray-700 mb-4">
-              Für größere Projekte und individuelle Angebote kontaktieren Sie unser Fachberater-Team direkt:
-            </p>
+            <p className="text-gray-700 mb-4">Für maßgeschneiderte Angebote und persönliche Beratung steht Ihnen unser Fachberater Martin Vogt gerne direkt zur Verfügung.</p>
             <div className="flex flex-col sm:flex-row gap-4">
               <div className="flex items-center gap-2 text-gray-700">
                 <Phone className="h-4 w-4 text-primary" />

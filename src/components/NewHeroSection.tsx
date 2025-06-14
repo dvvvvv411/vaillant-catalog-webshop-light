@@ -19,7 +19,7 @@ const NewHeroSection = () => <section className="w-full pb-3">
                 <ol className="space-y-4">
                   <li className="flex items-center gap-3">
                     <Check className="w-5 h-5 text-primary flex-shrink-0" />
-                    <span className="text-gray-700">Hohe Qualität</span>
+                    <span className="text-gray-700">Attraktive Konditionen</span>
                   </li>
                   <li className="flex items-center gap-3">
                     <Check className="w-5 h-5 text-primary flex-shrink-0" />

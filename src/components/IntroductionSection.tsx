@@ -1,9 +1,8 @@
-
 import React from "react";
 
 const IntroductionSection = () => {
   return (
-    <section className="py-6 bg-[#efefef]">
+    <section className="py-3 bg-[#efefef]">
       <div className="container">
         <div className="bg-white rounded-lg shadow-lg p-8 md:p-12">
           <h3 className="text-xl md:text-2xl font-semibold text-gray-800 mb-6 text-left">

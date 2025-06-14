@@ -3,7 +3,7 @@ import { FileDown, Star, Shield, Clock, Award } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const HeroSection = () => (
-  <section className="py-8 bg-[#efefef]">
+  <section className="py-4 bg-[#efefef]">
     <div className="container">
       <div className="bg-white rounded-lg shadow-lg p-6 md:p-8">
         <div className="flex flex-col lg:flex-row items-center gap-8 min-h-[500px]">

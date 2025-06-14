@@ -31,7 +31,7 @@ const AboutVaillant = () => {
   ];
 
   return (
-    <section className="py-8 bg-[#efefef]">
+    <section className="py-4 bg-[#efefef]">
       <div className="container">
         <div className="mb-12">
           <h2 className="text-3xl md:text-4xl text-gray-800 text-left">

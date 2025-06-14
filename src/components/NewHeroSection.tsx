@@ -4,7 +4,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Check } from "lucide-react";
 
 const NewHeroSection = () => (
-  <section className="w-full pb-6">
+  <section className="w-full pb-3">
     <div className="container">
       <div 
         className="relative h-[600px] overflow-hidden rounded-lg flex items-center"

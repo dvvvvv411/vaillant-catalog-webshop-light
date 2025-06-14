@@ -1,3 +1,4 @@
+
 import React from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -15,26 +16,8 @@ const NewHeroSection = () => (
           backgroundRepeat: "no-repeat"
         }}
       >
-        
-        <div 
-          className="absolute inset-0 rounded-lg"
-          style={{
-            background: "linear-gradient(to right, #00917e 0%, rgba(0, 145, 126, 0.8) 15%, rgba(0, 145, 126, 0.4) 30%, rgba(0, 145, 126, 0.2) 45%, transparent 70%)"
-          }}
-        />
-        
-        <div className="relative z-10 flex-1 px-8">
-          <div className="text-white max-w-lg">
-            <h1 className="text-4xl md:text-5xl font-bold mb-4 drop-shadow-lg">
-              Vaillant
-            </h1>
-            <p className="text-lg md:text-xl opacity-90 drop-shadow-md">
-              Innovative Heiztechnik für Ihr Zuhause
-            </p>
-          </div>
-        </div>
 
-        <div className="relative z-10 flex-shrink-0 h-full flex items-center mr-8">
+        <div className="relative z-10 flex-shrink-0 h-full flex items-center ml-auto mr-8">
           <Card className="w-[28rem] h-full bg-white shadow rounded-l-lg rounded-r-none flex flex-col">
             <CardContent className="p-8 flex-1 flex flex-col justify-start pt-24">
               <div className="space-y-4">

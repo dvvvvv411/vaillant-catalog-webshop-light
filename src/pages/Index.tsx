@@ -11,9 +11,9 @@ import NewsletterSignup from "@/components/NewsletterSignup";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-[#f5f5f5] flex flex-col font-sans">
+    <div className="min-h-screen bg-white flex flex-col font-sans">
       <Header />
-      <main className="flex-1 flex flex-col justify-start">
+      <main className="flex-1 flex flex-col">
         <HeroSection />
         <WhyVaillant />
         <ProductCategories />

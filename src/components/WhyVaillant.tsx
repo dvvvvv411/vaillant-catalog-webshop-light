@@ -1,41 +1,60 @@
 
 import React from "react";
-import { ShieldCheck, Award, Leaf } from "lucide-react";
+import { ShieldCheck, Award, Leaf, TrendingUp } from "lucide-react";
 
 const points = [
   {
     icon: ShieldCheck,
     title: "Verlässliche Qualität",
     text: "Premium-Markenprodukte mit robustem Design und langer Lebensdauer – entwickelt und getestet in Deutschland.",
+    color: "bg-blue-50 text-blue-600",
   },
   {
-    icon: Award,
+    icon: TrendingUp,
     title: "Innovativ & Effizient",
     text: "Zukunftsfähige Heiztechnik für jede Anforderung – Top-Effizienzklassen & umweltbewusste Lösungen.",
+    color: "bg-green-50 text-green-600",
   },
   {
     icon: Leaf,
     title: "Nachhaltigkeit",
     text: "Ressourcenschonende Systeme mit Fokus auf Umwelt und Energieeinsparung – für den nachhaltigen Gebäudebestand.",
+    color: "bg-emerald-50 text-emerald-600",
+  },
+  {
+    icon: Award,
+    title: "Partnerschaft",
+    text: "Umfassender Service und Support für Fachpartner – von der Beratung bis zur Installation.",
+    color: "bg-orange-50 text-orange-600",
   },
 ];
 
 const WhyVaillant = () => (
-  <section className="container py-10">
-    <h2 className="text-2xl md:text-3xl font-semibold mb-8 text-center text-gray-800">
-      Warum <span className="text-primary">Vaillant</span> wählen?
-    </h2>
-    <div className="flex flex-col md:flex-row gap-6 items-stretch justify-center">
-      {points.map((item) => (
-        <div
-          key={item.title}
-          className="flex-1 p-6 bg-white rounded-2xl shadow hover:shadow-xl transition-shadow flex flex-col items-center text-center animate-fade-in"
-        >
-          <item.icon className="text-primary mb-3" size={38} />
-          <div className="font-bold text-lg mb-1">{item.title}</div>
-          <div className="text-gray-600 text-base">{item.text}</div>
-        </div>
-      ))}
+  <section className="py-20 bg-white">
+    <div className="container">
+      <div className="text-center mb-16">
+        <h2 className="text-3xl lg:text-4xl font-bold mb-4 text-vaillant-dark">
+          Warum <span className="text-vaillant-teal">Vaillant</span> wählen?
+        </h2>
+        <p className="text-xl text-vaillant-gray max-w-3xl mx-auto">
+          Seit über 150 Jahren steht Vaillant für Innovation, Qualität und Zuverlässigkeit in der Heiztechnik
+        </p>
+      </div>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        {points.map((item, index) => (
+          <div
+            key={item.title}
+            className="group p-8 bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 hover:border-vaillant-teal/20 animate-fade-in"
+            style={{ animationDelay: `${index * 0.1}s` }}
+          >
+            <div className={`w-16 h-16 rounded-2xl ${item.color} flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300`}>
+              <item.icon size={32} />
+            </div>
+            <h3 className="text-xl font-bold mb-3 text-vaillant-dark">{item.title}</h3>
+            <p className="text-vaillant-gray leading-relaxed">{item.text}</p>
+          </div>
+        ))}
+      </div>
     </div>
   </section>
 );

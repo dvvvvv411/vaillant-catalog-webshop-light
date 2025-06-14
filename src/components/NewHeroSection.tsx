@@ -34,27 +34,27 @@ const NewHeroSection = () => (
           </div>
         </div>
 
-        {/* Right side card */}
-        <div className="relative z-10 flex-shrink-0 px-8 py-8">
-          <Card className="w-80 bg-white shadow-lg">
-            <CardContent className="p-6">
-              <h2 className="text-xl font-semibold text-gray-800 mb-4">
+        {/* Right side card - now wider and full height */}
+        <div className="relative z-10 flex-shrink-0 h-full flex items-center">
+          <Card className="w-96 h-full bg-white shadow-lg rounded-l-lg rounded-r-none flex flex-col">
+            <CardContent className="p-8 flex-1 flex flex-col justify-center">
+              <h2 className="text-xl font-semibold text-gray-800 mb-6">
                 Ihre Vorteile mit Vaillant
               </h2>
-              <ul className="space-y-3 mb-6">
-                <li className="flex items-start gap-2">
+              <ul className="space-y-4 mb-8 flex-1">
+                <li className="flex items-start gap-3">
                   <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
                   <span className="text-gray-700">Höchste Qualität und Zuverlässigkeit</span>
                 </li>
-                <li className="flex items-start gap-2">
+                <li className="flex items-start gap-3">
                   <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
                   <span className="text-gray-700">Energieeffiziente Lösungen</span>
                 </li>
-                <li className="flex items-start gap-2">
+                <li className="flex items-start gap-3">
                   <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
                   <span className="text-gray-700">Kompetente Beratung und Service</span>
                 </li>
-                <li className="flex items-start gap-2">
+                <li className="flex items-start gap-3">
                   <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
                   <span className="text-gray-700">Innovative Technologie</span>
                 </li>

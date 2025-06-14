@@ -2,7 +2,7 @@
 import React from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { Check, Mail, Phone } from "lucide-react";
+import { Check } from "lucide-react";
 
 const NewHeroSection = () => (
   <section className="w-full pb-3">
@@ -38,25 +38,6 @@ const NewHeroSection = () => (
                     <span className="text-gray-700">Fachhandwerksbetriebe in Ihrer Nähe</span>
                   </li>
                 </ol>
-                
-                {/* Order Notice */}
-                <div className="bg-blue-50 border border-blue-200 rounded-lg p-4 mt-6">
-                  <h3 className="text-sm font-semibold text-blue-900 mb-2">Bestellungen & Anfragen</h3>
-                  <p className="text-xs text-blue-800 mb-3">
-                    Für professionelle Beratung und Bestellungen kontaktieren Sie uns:
-                  </p>
-                  <div className="space-y-2">
-                    <div className="flex items-center gap-2">
-                      <Mail className="w-4 h-4 text-blue-600" />
-                      <span className="text-xs text-blue-800">info@vaillant-vertrieb.de</span>
-                    </div>
-                    <div className="flex items-center gap-2">
-                      <Phone className="w-4 h-4 text-blue-600" />
-                      <span className="text-xs text-blue-800">02191 9413997</span>
-                    </div>
-                  </div>
-                </div>
-                
                 <Button 
                   className="w-full bg-primary text-white hover:bg-primary/90 rounded-3xl px-6 py-3 h-auto leading-tight"
                 >

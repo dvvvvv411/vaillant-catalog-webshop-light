@@ -1,8 +1,9 @@
 
-
 import React from "react";
 import { FileDown, Star, Shield, Clock, Award, Phone, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { Separator } from "@/components/ui/separator";
+
 const HeroSection = () => <section className="py-4 bg-[#efefef]">
     <div className="container">
       <div className="bg-white rounded-lg shadow p-6 md:p-8">
@@ -14,7 +15,7 @@ const HeroSection = () => <section className="py-4 bg-[#efefef]">
           </div>
         </div>
 
-        <div className="flex flex-col lg:flex-row items-center gap-8 min-h-[500px]">
+        <div className="flex flex-col lg:flex-row items-center gap-8 min-h-[500px] relative">
           {/* Linke Hälfte - Text Content */}
           <div className="flex-1 flex flex-col justify-center items-center text-center lg:w-1/2">
             <div className="max-w-md text-center">
@@ -56,6 +57,11 @@ const HeroSection = () => <section className="py-4 bg-[#efefef]">
             </div>
           </div>
           
+          {/* Vertikaler Divider - nur auf größeren Bildschirmen sichtbar */}
+          <div className="hidden lg:flex">
+            <Separator orientation="vertical" className="h-80 bg-accent" />
+          </div>
+          
           {/* Rechte Hälfte - Bild */}
           <div className="flex-1 flex justify-center items-center lg:w-1/2 h-full">
             <div className="relative w-full max-w-sm">
@@ -94,4 +100,3 @@ const HeroSection = () => <section className="py-4 bg-[#efefef]">
     </div>
   </section>;
 export default HeroSection;
-

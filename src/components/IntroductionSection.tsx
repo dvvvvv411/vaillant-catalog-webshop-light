@@ -6,7 +6,7 @@ const IntroductionSection = () => {
     <section className="py-16 bg-[#efefef]">
       <div className="container">
         <div className="bg-white rounded-lg shadow-lg p-8 md:p-12">
-          <h3 className="text-xl md:text-2xl font-semibold text-primary mb-6 text-center">
+          <h3 className="text-xl md:text-2xl font-semibold text-gray-800 mb-6 text-left">
             "Sei innovativ, hör auf deine Kunden!" Firmengründer Johann Vaillant, 1874
           </h3>
           <p className="text-gray-700 leading-relaxed text-base md:text-lg">

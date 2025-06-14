@@ -52,9 +52,9 @@ const HeroSection = () => <section className="py-4 bg-[#efefef]">
                 size="lg" 
                 className="px-7 py-6 h-auto rounded-xl mb-3 text-lg font-semibold bg-primary text-white hover:bg-primary/80 transition-colors"
               >
-                <a href="/Vaillant_Katalog_Q2.pdf" download className="flex items-center gap-2">
+                <a href="/Vaillant_Katalog_Q2.pdf" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
                   <FileDown size={24} />
-                  <span>B2B Katalog herunterladen</span>
+                  <span>B2B Katalog ansehen</span>
                   <ArrowRight size={20} />
                 </a>
               </Button>

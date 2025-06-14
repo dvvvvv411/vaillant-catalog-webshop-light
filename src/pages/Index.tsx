@@ -7,6 +7,7 @@ import NewHeroSection from "@/components/NewHeroSection";
 import IntroductionSection from "@/components/IntroductionSection";
 import WhyVaillant from "@/components/WhyVaillant";
 import ProductCategories from "@/components/ProductCategories";
+import AboutVaillant from "@/components/AboutVaillant";
 
 const Index = () => {
   return (
@@ -18,6 +19,7 @@ const Index = () => {
         <HeroSection />
         <WhyVaillant />
         <ProductCategories />
+        <AboutVaillant />
       </main>
       <Footer />
     </div>

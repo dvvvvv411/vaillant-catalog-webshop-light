@@ -30,14 +30,14 @@ const Header = () => <header className="w-full bg-white shadow-sm">
     </div>
     
     {/* Main Header - no gap */}
-    <nav className="container flex items-center justify-between h-24 gap-4 -mt-px">
+    <nav className="container flex items-center justify-between md:justify-between justify-center h-24 gap-4 -mt-px">
       <div className="flex items-center gap-3">
         <img src="https://www.vaillant.at/media-master/global-media/layout/logos/old/vaillant-logo-272x72-1888261.png" alt="Vaillant Logo" className="h-12 w-auto" style={{
         imageRendering: "auto"
       }} />
         <span className="hidden sm:inline text-2xl font-semibold text-gray-700 tracking-wide">Geschäftskunden</span>
       </div>
-      <div className="flex items-center gap-6">
+      <div className="hidden md:flex items-center gap-6">
         <Button className="bg-primary text-white hover:bg-primary/90 rounded-full px-12 py-4 text-xl font-normal">
           <Phone size={20} />
           02191 9413997

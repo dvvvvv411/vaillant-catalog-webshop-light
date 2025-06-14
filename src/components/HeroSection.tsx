@@ -1,4 +1,5 @@
 
+
 import React from "react";
 import { FileDown, Star, Shield, Clock, Award, Phone, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -16,12 +17,12 @@ const HeroSection = () => <section className="py-4 bg-[#efefef]">
         <div className="flex flex-col lg:flex-row items-center gap-8 min-h-[500px]">
           {/* Linke Hälfte - Text Content */}
           <div className="flex-1 flex flex-col justify-center items-center text-center lg:w-1/2">
-            <div className="max-w-md">
+            <div className="max-w-md text-center">
               <h1 className="text-3xl md:text-4xl font-bold text-gray-800 mb-3 leading-tight">
                 Willkommen zum <span className="text-primary">Vaillant</span> <br />
                 <span className="text-primary">B2B Katalog 2025</span>
               </h1>
-              <p className="text-lg text-gray-700 mb-4">
+              <p className="text-lg text-gray-700 mb-4 text-center">
                 Ihr umfassender Überblick über professionelle Heiztechnik-Lösungen: Von energieeffizienten Wärmepumpen bis zu innovativen Warmwasser-Systemen – alle Produkte mit technischen Spezifikationen, Preisen und Verfügbarkeiten für Fachbetriebe.
               </p>
               
@@ -93,3 +94,4 @@ const HeroSection = () => <section className="py-4 bg-[#efefef]">
     </div>
   </section>;
 export default HeroSection;
+

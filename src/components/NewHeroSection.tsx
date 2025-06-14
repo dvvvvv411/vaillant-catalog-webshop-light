@@ -7,7 +7,7 @@ const NewHeroSection = () => (
       <div 
         className="relative h-[600px] overflow-hidden rounded-lg"
         style={{
-          backgroundImage: "url('https://i.imgur.com/Oi5cX9c.jpeg')",
+          backgroundImage: "url('https://professional.vaillant.co.uk/images/b2b-1/150-years-hare-header-left-2812276-format-16-9@431@retina.png')",
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat"

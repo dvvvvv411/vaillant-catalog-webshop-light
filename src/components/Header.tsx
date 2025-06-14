@@ -36,9 +36,7 @@ const Header = () => <header className="w-full bg-white shadow-sm">
         <span className="hidden sm:inline text-2xl font-semibold text-gray-700 tracking-wide">Geschäftskunden</span>
       </div>
       <div className="flex items-center gap-6">
-        <Button className="bg-primary text-white hover:bg-primary/90 rounded-full px-12 py-4 text-xl font-normal">
-          B2B Katalog
-        </Button>
+        <Button className="bg-primary text-white hover:bg-primary/90 rounded-full px-12 py-4 text-xl font-normal">02191 9413997</Button>
       </div>
     </nav>
   </header>;

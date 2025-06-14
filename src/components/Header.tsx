@@ -4,7 +4,7 @@ import { Search } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const Header = () => (
-  <header className="w-full bg-white shadow-lg">
+  <header className="w-full bg-white shadow-sm">
     {/* Top Bar */}
     <div className="w-full" style={{ backgroundColor: "#eee" }}>
       <div className="container flex items-center justify-between h-10">

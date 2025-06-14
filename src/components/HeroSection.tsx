@@ -1,3 +1,4 @@
+
 import React from "react";
 import { FileDown, Star, Shield, Clock, Award, Phone, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -21,7 +22,7 @@ const HeroSection = () => <section className="py-4 bg-[#efefef]">
                 <span className="text-primary">B2B Katalog 2025</span>
               </h1>
               <p className="text-lg text-gray-700 mb-4">
-                Entdecken Sie die neuen Produkte und Lösungen für Profis aus der SHK-Branche – effiziente Heiztechnik, moderne Wärmepumpen, innovative Warmwasser-Systeme. Alles auf einen Blick!
+                Ihr umfassender Überblick über professionelle Heiztechnik-Lösungen: Von energieeffizienten Wärmepumpen bis zu innovativen Warmwasser-Systemen – alle Produkte mit technischen Spezifikationen, Preisen und Verfügbarkeiten für Fachbetriebe.
               </p>
               
               {/* Feature-Highlights */}

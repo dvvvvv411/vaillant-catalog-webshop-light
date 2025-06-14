@@ -1,3 +1,4 @@
+
 import React from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -51,7 +52,7 @@ const NewHeroSection = () => {
       <div className="container">
         {/* Desktop Layout - unchanged */}
         <div className="hidden md:block relative h-[600px] overflow-hidden rounded-lg flex items-center" style={{
-          backgroundImage: "url('https://i.imgur.com/CjKKg5X.png')",
+          backgroundImage: "url('https://i.imgur.com/6ei8B4u.png')",
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat"
@@ -100,7 +101,7 @@ const NewHeroSection = () => {
         <div className="block md:hidden space-y-4">
           {/* Background image container for mobile */}
           <div className="relative h-[300px] overflow-hidden rounded-lg" style={{
-            backgroundImage: "url('https://i.imgur.com/CjKKg5X.png')",
+            backgroundImage: "url('https://i.imgur.com/6ei8B4u.png')",
             backgroundSize: "cover",
             backgroundPosition: "center",
             backgroundRepeat: "no-repeat"

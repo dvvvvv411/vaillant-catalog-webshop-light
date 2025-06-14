@@ -13,10 +13,10 @@ const Header = () => <header className="w-full bg-white shadow-sm">
           <a href="/" className="text-lg text-gray-700 hover:text-primary transition-colors px-4 py-4 bg-white rounded-t">
             Geschäftskunden
           </a>
-          <a href="#privatkunden" className="text-lg text-gray-700 hover:text-primary transition-colors px-4 py-2 hover:bg-white hover:rounded hover:shadow-sm">
+          <a href="https://www.vaillant.de/heizung/" className="text-lg text-gray-700 hover:text-primary transition-colors px-4 py-2 hover:bg-white hover:rounded hover:shadow-sm">
             Privatkunden
           </a>
-          <a href="#fachpartnernet" className="text-lg text-gray-700 hover:text-primary transition-colors px-4 py-2 hover:bg-white hover:rounded hover:shadow-sm">
+          <a href="https://www.myvaillantpro.de/" className="text-lg text-gray-700 hover:text-primary transition-colors px-4 py-2 hover:bg-white hover:rounded hover:shadow-sm">
             FachpartnerNET
           </a>
         </div>

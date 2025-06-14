@@ -38,7 +38,7 @@ const NewHeroSection = () => (
           <Card className="w-[28rem] h-full bg-white shadow-lg rounded-l-lg rounded-r-none flex flex-col">
             <CardContent className="p-8 flex-1 flex flex-col justify-center">
               <div className="space-y-4">
-                <h1 className="text-2xl text-gray-800 text-center">
+                <h1 className="text-2xl text-gray-800 text-left">
                   Zukunftsfähige Heizlösungen mit Vaillant
                 </h1>
                 <ol className="space-y-4">
